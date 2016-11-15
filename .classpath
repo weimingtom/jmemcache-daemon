@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="core/src/test/java"/>
-	<classpathentry kind="src" path="core/src/main/java"/>
-	<classpathentry kind="src" path="cli/src/main/java"/>
-	<classpathentry kind="src" path="ws/src/main/java"/>
-	<classpathentry kind="src" path="test/src/test/java"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="lib/commons-cli-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="lib/netty-3.2.4.Final.jar"/>
+	<classpathentry kind="lib" path="lib/protobuf-java-2.3.0.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.5.11.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-log4j12-1.5.11.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
